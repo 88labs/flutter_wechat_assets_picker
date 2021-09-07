@@ -12,6 +12,9 @@ dependencies:
     sdk: flutter
 
   extended_image: ^4.1.0
-  photo_manager: ^1.2.3
+  photo_manager:
+    git:
+      url: https://github.com/88labs/flutter_photo_manager.git
+      ref: feature/INSPECTION-2951_provisional_no_cache
   provider: ^5.0.0
   video_player: ^2.1.6
