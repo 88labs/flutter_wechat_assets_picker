@@ -30,3 +30,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+dependency_overrides:
+  photo_manager:
+    git:
+      url: https://github.com/88labs/flutter_photo_manager.git
+      ref: 2.7.0-hotfixes
