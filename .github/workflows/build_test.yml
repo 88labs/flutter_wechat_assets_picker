@@ -17,6 +17,7 @@ jobs:
       - uses: subosito/flutter-action@4389e6cbc6cb8a4b18c628ff96ff90be0e926aa8 # v1.5.3
         with:
           channel: 'stable'
+          flutter-version: 2.2.3
       - run: dart --version
       - run: flutter --version
       - run: flutter pub get
@@ -37,6 +38,7 @@ jobs:
       - uses: subosito/flutter-action@4389e6cbc6cb8a4b18c628ff96ff90be0e926aa8 # v1.5.3
         with:
           channel: 'stable'
+          flutter-version: 2.2.3
       - run: dart --version
       - run: flutter --version
       - run: flutter pub get
