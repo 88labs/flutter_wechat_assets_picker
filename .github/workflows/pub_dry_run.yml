@@ -2,6 +2,9 @@ name: Pub Publish dry run
 
 on: [push]
 
+permissions:
+  contents: read
+
 jobs:
   publish:
 
